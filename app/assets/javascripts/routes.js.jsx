@@ -4,6 +4,7 @@ var Route = ReactRouter.Route,
 this.MyRoutes = (
   <Route handler={App}>
     <DefaultRoute handler={HelloWorld} />
-    <Route name='page1' handler={AnotherPage} path='page1'/>
+    <Route name='login' handler={SignInForm} path='login'/>
+    <Route name='signup' handler={SignUpForm} path='signup'/>
   </Route>
 );
